@@ -5,7 +5,7 @@ https://kubernetes.io/docs/getting-started-guides/kops/
 
 1. To install `kops` on a Mac, just
 
-    brew install kops
+        brew install kops
 
 2. Set up the Route 53 hosted zone for the topmost domain you want the cluster
    to serve content on.
