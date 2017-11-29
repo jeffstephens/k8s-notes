@@ -12,3 +12,7 @@ https://kubernetes.io/docs/getting-started-guides/kops/
 
 3. The name of the cluster doesn't need to match the top-level domain from the
    Route 53 hosted zone. I like to name it something like `cluster.example.com`.
+
+4. The S3 bucket for `kops` remote state could contain state for more than one
+   cluster - best practice is to name it something like `clusters.example.com`.
+
